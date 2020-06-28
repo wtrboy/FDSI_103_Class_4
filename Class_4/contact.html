@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <header class="site-header">
+        <div class="content-header">
+            <div class="bar">
+                <a href="index.html">
+                    <img src="img/logo.svg" alt="logo"></a>
+                <div class="mobile-menu">
+                    <a href="#menu">
+                    <img src="img/barras.svg" alt="hamburger menu">
+                    </a>
+                </div>
+                <nav id="menu" class="menu">
+                    <a href="about.html">About</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div> <!--close the bar-->
+        <h1>We Sell Luxury Houses and Penthouses</h1>
+        </div> <!--closes the content header-->
+    </header>
+    <h2 class="center">Contact</h2>
+    <img src="img/destacada.jpg" alt="just a picture">
+    <main class="container">
+        <form action="#">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="username">
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="userEmail">
+
+                <label for="phone">Phone:</label>
+                <input type="tel" name="phone" id="userPhone">
+
+                <label for="message">Message:</label>
+                <textarea name="message" id="userMessage" cols="30" rows="10">
+                </textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Product Information</legend>
+                <label for="type">Type</label>
+                <select name="type" id="product">
+                    <option value="" selected disabled> --- Select an option --- </option>
+                    <option value="sell">Sell</option>
+                    <option value="buy">Buy</option>
+                </select>
+
+                <label for="number">Number</label>
+                <input type="number" name="number" id="productNumber">
+            </fieldset>
+
+            <fieldset>
+                <legend>Contact Information</legend>
+                
+                <p>If you want to be contacted via phone, please select a day and hour</p>
+
+                <label for="date">Date</label>
+                <input type="date" name="date" id="date">
+
+                <label for="hour">Hour</label>
+                <input type="time" name="hour" id="hour">
+            </fieldset>
+
+            <div class="btn-form">
+                <input class="btn" type="submit" value="send">
+            </div>
+        </form>
+
+        <footer>
+            <nav>
+                <a href="about.html">About</a>
+                <a href="blog.html">Blog</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <p>All the copyrights reserved 2020 &copy; Michael Lane Thompson</p>
+        </footer>
+
+
+    </main>
+
+</body>
+</html>
